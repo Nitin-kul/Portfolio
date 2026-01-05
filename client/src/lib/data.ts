@@ -58,11 +58,13 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Floating Isles",
-    category: "Low Poly",
-    image: lowPoly,
-    description: "A whimsical low-poly landscape created for a mobile game prototype. Focus on color theory and simple geometry.",
-    tools: ["Blender", "Unity"]
+    title: "Cyber City Cinematic",
+    category: "Animation",
+    image: cyberpunkCity,
+    isVideo: true,
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-at-night-with-neon-lights-40011-large.mp4",
+    description: "Animated cinematic fly-through of a cyberpunk environment with dynamic neon animations.",
+    tools: ["Blender", "Eevee", "After Effects"]
   },
   {
     id: 4,
@@ -74,10 +76,12 @@ export const projects = [
   },
   {
     id: 5,
-    title: "Chrono Core",
-    category: "Hard Surface",
+    title: "Watch Heartbeat",
+    category: "Simulation",
     image: watchMovement,
-    description: "Detailed mechanical watch movement visualization. Focus on micro-mechanical modeling and procedural metal textures.",
+    isVideo: true,
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-clock-mechanism-working-42407-large.mp4",
+    description: "Detailed mechanical watch movement animation showing the intricate gear interactions.",
     tools: ["Blender", "Cycles"]
   },
   {
@@ -90,11 +94,13 @@ export const projects = [
   },
   {
     id: 7,
-    title: "Lost Relic",
-    category: "Environment",
-    image: templeRuins,
-    description: "Ancient temple ruins overgrown with vegetation. Study of megascans integration and large-scale lighting.",
-    tools: ["Blender", "Cycles", "Megascans"]
+    title: "Fluid Dynamics",
+    category: "Simulation",
+    image: abstractGlass,
+    isVideo: true,
+    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-abstract-glass-structure-with-refractions-40012-large.mp4",
+    description: "High-speed fluid simulation showing complex interactions and refractive properties.",
+    tools: ["Blender", "Cycles", "Flip Fluids"]
   },
   {
     id: 8,
@@ -122,22 +128,18 @@ export const projects = [
   },
   {
     id: 11,
-    title: "Cyber City Night",
+    title: "Lost Relic",
     category: "Environment",
-    image: cyberpunkCity,
-    isVideo: true,
-    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-at-night-with-neon-lights-40011-large.mp4",
-    description: "Animated cinematic fly-through of a cyberpunk environment with dynamic neon animations.",
-    tools: ["Blender", "Eevee", "After Effects"]
+    image: templeRuins,
+    description: "Ancient temple ruins overgrown with vegetation. Study of megascans integration and large-scale lighting.",
+    tools: ["Blender", "Cycles", "Megascans"]
   },
   {
     id: 12,
-    title: "Fluid Motion",
-    category: "Simulation",
-    image: abstractGlass,
-    isVideo: true,
-    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-abstract-glass-structure-with-refractions-40012-large.mp4",
-    description: "High-speed fluid simulation showing complex interactions and refractive properties.",
-    tools: ["Blender", "Cycles", "Flip Fluids"]
+    title: "Floating Isles",
+    category: "Low Poly",
+    image: lowPoly,
+    description: "A whimsical low-poly landscape created for a mobile game prototype. Focus on color theory and simple geometry.",
+    tools: ["Blender", "Unity"]
   }
 ];
