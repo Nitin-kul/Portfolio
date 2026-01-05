@@ -5,10 +5,9 @@ import { motion } from "framer-motion";
 
 export default function Contact() {
   const socialIcons: Record<string, any> = {
-    Github: Github,
+    GitHub: Github,
     LinkedIn: Linkedin,
     Instagram: Instagram,
-    YouTube: Youtube,
   };
 
   return (

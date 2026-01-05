@@ -1,4 +1,4 @@
-import { personalInfo, education } from "@/lib/data";
+import { personalInfo, education} from "@/lib/data";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { Download, GraduationCap, ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
@@ -29,9 +29,12 @@ export default function Home() {
             </p>
             
             <div className="flex gap-4 justify-center">
-              <Button size="lg" className="bg-primary hover:bg-primary/90 text-white gap-2 text-lg px-8">
-                <Download className="w-5 h-5" /> Download CV
-              </Button>
+              <a href="/Nitin_Kulshrestha_CV.pdf" download>
+                <Button size="lg" className="bg-primary hover:bg-primary/90 text-white gap-2 text-lg px-8" >
+                  <Download className="w-5 h-5" />
+                  Download CV
+                </Button>
+              </a>
               <Link 
                 href="/projects" 
                 className={cn(

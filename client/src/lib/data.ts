@@ -10,136 +10,147 @@ import abstractSculpture from '@assets/generated_images/geometric_abstract_sculp
 import blacksmithShop from '@assets/generated_images/medieval_blacksmith_shop.png';
 
 export const personalInfo = {
-  name: "Nitin Kulkarni",
+  name: "Nitin Kulshrestha",
   title: "3D Artist & Designer",
-  email: "contact@nitinkul.blog",
-  phone: "+91 98765 43210",
-  location: "Pune, India",
-  about: "I am a passionate 3D Artist specializing in hard surface modeling, environment design, and photorealistic rendering. With a deep understanding of Blender's powerful toolset, I transform concepts into immersive visual experiences. My workflow integrates procedural texturing, volumetric lighting, and optimized topology to create assets ready for game engines and cinematic productions.",
+  email: "kulshresthanitin7@gmail.com",
+  phone: "+91 8949453970",
+  location: "Ajmer, India",
+  about: "I am a 3D Artist and Game Developer specializing in hard-surface modeling and environment design. With a deep understanding of Blender's toolset, Unreal Engine, and Unity. My workflow integrates optimized topology and performance-ready asset creation to deliver high-quality visuals for games and interactive productions.",
   socials: [
-    { name: "ArtStation", url: "#" },
-    { name: "LinkedIn", url: "#" },
-    { name: "Instagram", url: "#" },
-    { name: "YouTube", url: "#" }
+    { name: "GitHub", url: "https://github.com/Nitin-kul" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" },
+    { name: "Instagram", url: "https://www.instagram.com/nitin.kulshrestha.756/" },
   ]
 };
 
 export const education = [
   {
-    degree: "Bachelor of Design (B.Des)",
-    school: "Avantika University",
-    year: "2019 - 2023",
-    description: "Specialized in Industrial Design with a focus on digital prototyping and 3D visualization."
+    degree: "Certification in 3D Animation, Modeling And Game Design",
+    school: "Austrin Lagacy Crop, Ajmer",
+    year: "2025 - Present",
+    description: "Currently working as a 3D Artist and Game Developer, specializing in 3D asset creation and interactive environments using Blender, Unreal Engine, and Unity."
   },
   {
-    degree: "Certification in 3D Animation",
-    school: "Udemy / Coursera",
-    year: "2018",
-    description: "Comprehensive course on Blender fundamentals, character rigging, and animation pipelines."
+    degree: "Bachelor of Computer Applications (B.Tech in Computer Science)",
+    school: "Aryabhatta College of Engineering & Resarch Centre, Ajmer",
+    year: "2022 - Present",
+    description: "Specialized in Computer Science with a focus on programming fundamentals and modern technologies."
+  },
+  {
+    degree: "Senior Secondary Education (12th Grade)",
+    school: "DAV School, Ajmer",
+    year: "2021 - 2022",
+    description: "Completed Class 12 with a focus on Mathematics and Computer Science fundamentals."
+  },
+  {
+    degree: "Secondary Education (10th Grade)",
+    school: "Bal Mandir School ,Baytu(Barmer)",
+    year: "2019 - 2020",
+    description: "Completed Class 10 with a strong foundation in core academic subjects and logical thinking."
   }
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Neon Rain",
-    category: "Environment",
-    image: cyberpunkCity,
-    description: "A cyberpunk city street scene created to study volumetric lighting and screen-space reflections in Eevee.",
-    tools: ["Blender", "Eevee", "Photoshop"]
+    title: "Car Project",
+    category: "Animation",
+    isVideo: true,
+    videoUrl: "/p_videos/Car Project.mkv",
+    description: "A 3D car viewport animation featuring dynamic transformations with smooth camera motion and real-time visual updates.",
+    tools: ["Blender", "Cycles"]
   },
   {
     id: 2,
-    title: "Prism Refraction",
-    category: "Abstract",
-    image: abstractGlass,
-    description: "An exploration of glass dispersion shaders and caustics using the Cycles rendering engine.",
+    title: "Car Project 2",
+    category: "Animation",
+    isVideo: true,
+    videoUrl: "/p_videos/Car Project 2.mkv",
+    description: "A 3D car viewport animation demonstrating dynamic transformations and real-time visual updates within the scene.",
     tools: ["Blender", "Cycles"]
   },
   {
     id: 3,
-    title: "Cyber City Cinematic",
+    title: "Cake Project",
     category: "Animation",
-    image: cyberpunkCity,
     isVideo: true,
-    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-cyberpunk-city-at-night-with-neon-lights-40011-large.mp4",
-    description: "Animated cinematic fly-through of a cyberpunk environment with dynamic neon animations.",
-    tools: ["Blender", "Eevee", "After Effects"]
+    videoUrl: "/p_videos/Cake Project.mkv",
+    description: "A cake transition animation demonstrating smooth, visually appealing scene changes with creative 3D effects.",
+    tools: ["Blender", "Cycles"]
   },
   {
     id: 4,
-    title: "Sector 7 Corridor",
-    category: "Hard Surface",
-    image: scifiCorridor,
-    description: "High-fidelity sci-fi corridor modeled with modular assets. Baked texture maps for real-time performance.",
-    tools: ["Blender", "Substance Painter"]
+    title: "Marph Project",
+    category: "Animation",
+    isVideo: true,
+    videoUrl: "/p_videos/Marph Project.mkv",
+    description: "A morph animation project showcasing smooth shape transformations and dynamic object transitions in 3D.",
+    tools: ["Blender", "Cycles"]
   },
   {
     id: 5,
-    title: "Watch Heartbeat",
-    category: "Simulation",
-    image: watchMovement,
+    title: "Clock Project",
+    category: "Animation",
     isVideo: true,
-    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-close-up-of-a-clock-mechanism-working-42407-large.mp4",
-    description: "Detailed mechanical watch movement animation showing the intricate gear interactions.",
+    videoUrl: "/p_videos/Clock Project.mkv",
+    description: "High-fidelity sci-fi corridor modeled with modular assets. Baked texture maps for real-time performance.",
     tools: ["Blender", "Cycles"]
   },
   {
     id: 6,
-    title: "Vanguard X1",
-    category: "Vehicle",
-    image: droneDesign,
-    description: "Conceptual drone design for a sci-fi universe. Features retractable landing gear and integrated lighting systems.",
-    tools: ["Blender", "Eevee"]
-  },
-  {
-    id: 7,
-    title: "Fluid Dynamics",
-    category: "Simulation",
-    image: abstractGlass,
+    title: "Metal Plate Straightening Machine Model 1",
+    category: "Freelance",
     isVideo: true,
-    videoUrl: "https://assets.mixkit.co/videos/preview/mixkit-abstract-glass-structure-with-refractions-40012-large.mp4",
-    description: "High-speed fluid simulation showing complex interactions and refractive properties.",
-    tools: ["Blender", "Cycles", "Flip Fluids"]
-  },
-  {
-    id: 8,
-    title: "Echo Terminal",
-    category: "Prop",
-    image: retroComputer,
-    description: "Retro-futuristic computer terminal. Focus on storytelling through wear, tear, and lighting.",
+    videoUrl: "/p_videos/Straighteing Machine.mp4",
+    description: "3D model project (updated version) of a metal plate straightening machine featuring hydraulic rollers and control units for precise correction of bends and deformations.",
     tools: ["Blender", "Cycles"]
   },
   {
+    id: 7,
+    title: "Cude Game",
+    category: "Game",
+    image: "/p_images/image_1.png",
+    description: "A 3D cube-based game project in Unity demonstrating core game mechanics, asset import, 3D modeling, and basic player interactions.",
+    tools: ["Blender", "Unity"]
+  },
+  {
+    id: 8,
+    title: "Metal Plate Straightening Machine Model 2",
+    category: "Freelance",
+    image: "/p_images/image_2.jpg",
+    description: "3D model project (updated version) of a metal plate straightening machine featuring hydraulic rollers and control units for precise correction of bends and deformations.",
+    tools: ["Blender", "Cycles", "Flip Fluids"]
+  },
+  {
     id: 9,
-    title: "Monolith",
-    category: "Abstract",
-    image: abstractSculpture,
-    description: "Minimalist sculpture visualization in a gallery setting. Study of light, shadow, and architectural space.",
+    title: "Metal Plate Straightening Machine Model 3",
+    category: "Freelance",
+    image: "/p_images/image_3.jpg",
+    description: "3D model project of a metal plate straightening machine featuring hydraulic rollers and control units for precise correction of bends and deformations.",
     tools: ["Blender", "Cycles"]
   },
   {
     id: 10,
-    title: "Iron Hearth",
+    title: "Low-Poly Interior Scene",
     category: "Environment",
-    image: blacksmithShop,
-    description: "Medieval blacksmith shop interior. Focus on fire and ember simulations using Mantaflow and particle systems.",
-    tools: ["Blender", "Cycles", "Mantaflow"]
+    image: "/p_images/image_4.png",
+    description: "A charming 3D stylized living room terrarium featuring warm pink and green tones, minimalist furniture, inviting miniature environment.",
+    tools: ["Blender", "Cycles"]
   },
   {
     id: 11,
-    title: "Lost Relic",
+    title: "Mushroom Terrarium",
     category: "Environment",
-    image: templeRuins,
-    description: "Ancient temple ruins overgrown with vegetation. Study of megascans integration and large-scale lighting.",
-    tools: ["Blender", "Cycles", "Megascans"]
+    image: "/p_images/image_5.png",
+    description: "A meticulously crafted 3D glass bottle terrarium showcasing realistic materials, transparent detailing, and lifelike lighting and textures.",
+    tools: ["Blender", "Cycles"]
   },
   {
     id: 12,
-    title: "Floating Isles",
-    category: "Low Poly",
-    image: lowPoly,
-    description: "A whimsical low-poly landscape created for a mobile game prototype. Focus on color theory and simple geometry.",
-    tools: ["Blender", "Unity"]
-  }
+    title: "GLowing Tree and Human Figure",
+    category: "Environment",
+    image: "/p_images/image_6.png",
+    description: "A mesmerizing 3D render of a glowing tree with particles beside a human figure on a reflective surface, showcasing Blender’s lighting and material effects.",
+    tools: ["Blender", "Cycles"]
+  },
 ];

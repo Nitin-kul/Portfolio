@@ -18,7 +18,7 @@ export default function Navbar() {
           NK
         </div>
         <span className="font-heading font-bold text-xl tracking-wide hidden sm:block text-foreground">
-          NITIN KULKARNI
+          NITIN KULSHRESTHA
         </span>
       </Link>
 
